@@ -10,13 +10,12 @@ public :
 	Ingridient(const Ingridient& i);
 	Ingridient();
 
-	string get_name();
-	string get_system_calculation();
-	float get_quanity();
-	
+    string getName();
+    string getSystemCalculation();
+    float getQuanity();
 private :
 	string name;
-	string system_calculation;
+    string systemCalculation;
 	float quanity;
 };
 

@@ -4,34 +4,35 @@ using namespace std;
 
 Ingridient::Ingridient(string name, string system_calculation, float quanity) {
 	this->name = name;
-	this->system_calculation = system_calculation;
+    this->systemCalculation = system_calculation;
 	this->quanity = quanity;
 }
 
 Ingridient::Ingridient(const Ingridient& i) {
 	this->name = i.name;
-	this->system_calculation = i.system_calculation;
+    this->systemCalculation = i.systemCalculation;
 	this->quanity = i.quanity;
 }
 
 Ingridient::Ingridient() {
 	this->name = "";
-	this->system_calculation = "";
+    this->systemCalculation = "";
 	this->quanity = 0;
 }
 
-string Ingridient::get_name()
+string Ingridient::getName()
 {
 	return this->name;
 }
 
-string Ingridient::get_system_calculation()
+string Ingridient::getSystemCalculation()
 {
-	return this->system_calculation;
+    return this->systemCalculation;
 }
 
-float Ingridient::get_quanity()
+float Ingridient::getQuanity()
 {
-	return this->quanity;
+    return this->quanity;
 }
+
 
